@@ -1,0 +1,10 @@
+.robot-img{
+    width: 200px;
+}
+.card-robot{
+    width: 250px;
+    height: 340px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}

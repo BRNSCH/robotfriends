@@ -1,10 +1,11 @@
 import React from 'react';
+import './Card.css'
 
 const Card = () => {
     return (
         
-        <div>
-            <img src="" alt="photo" />
+        <div className='card-robot'>
+            <img className="robot-img" src="https://robohash.org/dfgdfg" alt="photo" />
             <div>
                 <h2>Jane Doe</h2>
                 <p>Jane.Doe@gmail.com</p>

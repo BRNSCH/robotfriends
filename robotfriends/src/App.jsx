@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Card from './Card'
+import { robots } from './robots'
 import './App.css'
 
 class App extends Component  {
@@ -9,7 +10,11 @@ class App extends Component  {
     return (
       <div className="App">
         <h1> teste meu</h1>
-        <Card/>
+        <div className='cards'>
+          <Card robotId={ robots} />
+          <Card robotId={robots} />
+          <Card robotId={robots} />
+        </div>
       </div>
     )
   }
