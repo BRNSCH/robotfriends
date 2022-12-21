@@ -2,7 +2,7 @@ import React from "react";
 import './SearchBox.css';
 
 
-const SearchBox = () => {
+const SearchBox = ({searchChange}) => {
     return (
         
         <div className="search-main">
@@ -10,6 +10,7 @@ const SearchBox = () => {
                 className=""
                 type="search"
                 placeholder="Search Robots"
+                onChange={searchChange}
             />
 
         </div>

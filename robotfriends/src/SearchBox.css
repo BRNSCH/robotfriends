@@ -3,7 +3,23 @@
     padding: 30px 0 50px;
 }
 .search-main > input{
-    padding: 10px;
+    height: 45px;
     text-align: center;
     border-radius: 8px;
+    background-color: black;
+    color: rgb(245, 18, 188);
+    font-size: 1rem;
+    box-shadow: 9px 15px 14px black, 11px 17px 16px rgb(128, 17, 100);
+    border-color: rgb(10, 10, 10) ;
+    
 }
+
+ input::placeholder{
+    background-color: black;
+    color: blanchedalmond;
+ }
+
+ input:focus {
+     outline: 1px solid rgb(248, 9, 248);
+
+ }
