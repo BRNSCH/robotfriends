@@ -7,6 +7,9 @@ body{
    
     
 }
+.loadingH1{
+     text-align: center;
+}
 
 @font-face {
     font-family: 'SEGA LOGO FONT';
@@ -51,21 +54,19 @@ h1{
     gap: 25px;
     margin: 0 auto;
     max-width: 1224px;
+    padding: 80px 0 120px;
+    
 }
 
-.card-list{
-    margin:60px 20px 60px;
-}
+
 
 @media (max-width:428px) {
     h1 {
             font-family: 'SEGA LOGO FONT';
             font-weight: 200;
             font-size: 2rem;
-            line-height: 55px;
-           
+            line-height: 55px;           
     
         }
-
    
 }

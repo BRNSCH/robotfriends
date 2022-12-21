@@ -25,7 +25,7 @@
    
 }
 .card-robot:hover {
-    transform: rotate(-360deg) scale(1.5);      
+    transform: rotate(-360deg) scale(1.4);      
     transition-delay: 0.5s;
     background-color: #d3168b;
     color: rgb(19, 18, 18);
