@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SearchBox from './SearchBox';
 import { robots } from './robots';
 import CardList from './CardList';
 import './App.css';
@@ -11,6 +12,7 @@ class App extends Component  {
     return (
       <div className="App">
         <h1> teste meu</h1>
+        <SearchBox/>
         <CardList robots={robots} />
       </div>
     )
