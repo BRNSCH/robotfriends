@@ -1,3 +1,13 @@
+body{
+    margin: 0;
+}
+
+
+.App{
+    text-align: center;
+    padding: 30px 0;
+}
+
 .cards{
     display: flex;
     flex-direction: row;
@@ -5,4 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin: 0 auto;
+    max-width: 1224px;
 }
+

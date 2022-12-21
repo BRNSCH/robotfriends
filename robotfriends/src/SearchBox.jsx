@@ -1,12 +1,18 @@
+import React from "react";
+import './SearchBox.css';
 
 
 const SearchBox = () => {
     return (
         
-        <>
-            <h1>teste</h1>
+        <div className="search-main">
+            <input
+                className=""
+                type="search"
+                placeholder="Search Robots"
+            />
 
-        </>
+        </div>
     )
 };
 

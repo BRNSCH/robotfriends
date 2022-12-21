@@ -11,7 +11,7 @@ class App extends Component  {
 
     return (
       <div className="App">
-        <h1> teste meu</h1>
+        <h1> Ultimate RobotFriends</h1>
         <SearchBox/>
         <CardList robots={robots} />
       </div>
