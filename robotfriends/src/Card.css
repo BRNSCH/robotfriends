@@ -20,12 +20,48 @@
     border: 2px solid #292525;
     text-align: center;
     box-shadow: 12px 5px 26px rgb(70, 5, 48),2px 15px 26px rgb(70, 5, 48), 15px 15px 15px #2e2a29;
+    transition: all .9s;
+    transition-delay: 0.5s;
+   
+}
+.card-robot:hover {
+    transform: rotate(-360deg) scale(1.5);      
+    transition-delay: 0.5s;
+    background-color: #d3168b;
+    color: rgb(19, 18, 18);
+    text-shadow: 9px 14px 14px #860f6c, 1px 2px 1px #857085, 5px 1px 55px #3b153b, 10px 2px 25px #131111;
 }
 
-.card-robot img{
-    
+.card-robot img{    
     margin: 12px;
     border-radius: 12px;
     border: 1px solid #130e0d;
     box-shadow: 2px 5px 6px rgb(70, 5, 48), 2px 5px 26px rgb(158, 33, 116), 5px 5px 15px #2e2a29;
+    
 }
+
+.card-robot:hover>img {
+
+    border-radius: 50%;
+    filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    transition: transform .4s ease-in-out;    
+
+}
+
+img {
+    transition: transform .4s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+
+
+/* img {
+    transition: transform .7s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+} */
