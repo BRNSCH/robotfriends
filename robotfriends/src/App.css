@@ -8,12 +8,12 @@ body{
     
 }
 
-   @font-face {
-       font-family: 'SEGA LOGO FONT';
-       font-style: normal;
-       font-weight: normal;
-       src: local('SEGA LOGO FONT'), url('./assets/SEGA.woff') format('woff');
-   }
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('./assets/SEGA.woff') format('woff');
+}
 
 .app-top{
     background-color: #110c0c;
@@ -55,4 +55,17 @@ h1{
 
 .card-list{
     margin:60px 20px 60px;
+}
+
+@media (max-width:428px) {
+    h1 {
+            font-family: 'SEGA LOGO FONT';
+            font-weight: 200;
+            font-size: 2rem;
+            line-height: 55px;
+           
+    
+        }
+
+   
 }
