@@ -30,6 +30,7 @@
     background-color: #d3168b;
     color: rgb(19, 18, 18);
     text-shadow: 9px 14px 14px #860f6c, 1px 2px 1px #857085, 5px 1px 55px #3b153b, 10px 2px 25px #131111;
+    z-index: 1;
 }
 
 .card-robot img{    
