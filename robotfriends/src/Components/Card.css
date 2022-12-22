@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ZenDots-Regular';
-    src: url(./assets/ZenDots-Regular.ttf);
+    src: url('../assets/ZenDots-Regular.ttf');
 }
 html {
     overflow: scroll;
